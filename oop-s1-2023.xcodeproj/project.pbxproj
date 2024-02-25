@@ -43,7 +43,8 @@
 		953836992B8BFF5C003B1001 = {
 			isa = PBXGroup;
 			children = (
-				953836A42B8BFF5C003B1001 /* oop-s1-2023 */,
+				953836A52B8BFF5C003B1001 /* main.cpp */,
+				953836AC2B8BFFEA003B1001 /* count.cpp */,
 				953836A32B8BFF5C003B1001 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,15 +55,6 @@
 				953836A22B8BFF5C003B1001 /* oop-s1-2023 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		953836A42B8BFF5C003B1001 /* oop-s1-2023 */ = {
-			isa = PBXGroup;
-			children = (
-				953836A52B8BFF5C003B1001 /* main.cpp */,
-				953836AC2B8BFFEA003B1001 /* count.cpp */,
-			);
-			path = "oop-s1-2023";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
