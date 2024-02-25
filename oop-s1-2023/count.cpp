@@ -7,14 +7,14 @@
 
 #include <stdio.h>
 
-int count(int arr[], int)
+int count(int arr[], int size)
 {
 	int	i;
 	int	sum;
 	
 	i = 0;
 	sum = 0;
-	while(i < 5)
+	while(i < size)
 	{
 		if (arr[i] % 2 == 0)
 		{
