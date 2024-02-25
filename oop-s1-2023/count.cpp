@@ -16,7 +16,10 @@ int count(int arr[], int)
 	sum = 0;
 	while(i < 5)
 	{
-		sum += arr[i];
+		if (arr[i] % 2 == 0)
+		{
+			sum += 1;
+		}
 		i++;
 	}
 	return (sum);
