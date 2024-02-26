@@ -12,9 +12,18 @@ extern int array_sum(int[], int);
 double array_mean(int array[], int n)
 {
 	double	mean;
+	int		sum;
+	int		i;
 	
-	if (n == 0)
-		return (0.0);
-	mean = (double)array_sum(array, n) / n;
+	sum = 0;
+	i = 0;
+	if (n < 1)
+		return (sum);
+	while (i < n)
+	{
+		sum += array[i];
+		i++;
+	}
+	mean = (double)sum / n;
 	return (mean);
 }
