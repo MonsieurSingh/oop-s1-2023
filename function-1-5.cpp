@@ -14,7 +14,7 @@ int count_evens(int number)
 	
 	count = 0;
 	i = 1;
-	while (i < number)
+	while (i <= number)
 	{
 		if (i % 2 == 0)
 			count += 1;
