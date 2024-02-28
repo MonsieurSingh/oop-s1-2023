@@ -10,17 +10,16 @@
 bool is_fanarray(int array[], int n)
 {
 	int		i;
-	bool	res;
 
 	i = 0;
-	res = false;
-	while (i <= n / 2 && !(n < 1))
+	if (n < 1)
+		return false;
+	while (i < n / 2)
 	{
-		res = true;
 		if ((array[i] != array[(n - 1) - i])
-			&& (array[i] < array[i - 1]))
+			|| (i > 0 && array[i] <= array[i - 1]))
 			return (false);
 		i++;
 	}
-	return(res);
+	return(true);
 }
