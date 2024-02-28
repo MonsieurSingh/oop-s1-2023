@@ -1,13 +1,11 @@
 //
-//  function-1-1.cpp
+//  function-1-2.cpp
 //  oop-s1-2023
 //
 //  Created by Devjyot Singh on 26/2/2024.
 //
 
 #include <stdio.h>
-
-extern int array_sum(int[], int);
 
 double array_mean(int array[], int n)
 {

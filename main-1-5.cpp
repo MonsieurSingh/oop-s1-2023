@@ -1,16 +1,15 @@
 //
-//  main.cpp
+//  main-1-5.cpp
 //  oop-s1-2023
 //
 //  Created by Devjyot Singh on 26/2/2024.
 //
 
 #include <iostream>
-#include <stdio.h>
 
 extern int count_evens(int);
 
-int main()
+int main(void)
 {
 	int	number;
 

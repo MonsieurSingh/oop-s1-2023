@@ -1,16 +1,15 @@
 //
-//  main.cpp
+//  main-1-4.cpp
 //  oop-s1-2023
 //
 //  Created by Devjyot Singh on 26/2/2024.
 //
 
 #include <iostream>
-#include <stdio.h>
 
 extern int sum_two_arrays(int[], int[], int n);
 
-int main()
+int main(void)
 {
 	int array[7] = {4,5,6,7,8,9,13};
 	int array2[7] = {4,5,6,7,8,9,13};
