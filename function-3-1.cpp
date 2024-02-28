@@ -14,7 +14,7 @@ bool is_fanarray(int array[], int n)
 	i = 0;
 	if (n < 1)
 		return false;
-	while (i < n / 2)
+	while (i <= n / 2)
 	{
 		if ((array[i] != array[(n - 1) - i])
 			|| (i > 0 && array[i] <= array[i - 1]))
