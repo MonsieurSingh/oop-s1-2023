@@ -22,6 +22,8 @@ int median_array(int array[], int n)
 	int	j;
 
 	i = 0;
+	if (n < 1)
+		return (0);
 	while (i < n)
 	{
 		j = i + 1;

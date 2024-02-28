@@ -11,5 +11,5 @@ bool is_descending(int array[], int n)
 {
 	if (n == 1 || n == 0)
 		return (true);
-	return (array[n - 1] >= array[n - 2] && is_descending(array, n - 1));
+	return (array[n - 1] <= array[n - 2] && is_descending(array, n - 1));
 }
