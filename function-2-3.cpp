@@ -35,5 +35,5 @@ void two_five_nine(int array[], int n)
 		}
 		c++;
 	}
-	printf("2:%d;5:%d;9:%d\n", i, j, k);
+	printf("2:%d;5:%d;9:%d;\n", i, j, k);
 }
