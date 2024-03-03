@@ -22,3 +22,14 @@ int ft_itob(int octet)
 	write(1, "\n", 1);
 	return (0);
 }
+
+int main(int argc, const char * argv[]) {
+	// insert code here...
+	(void)argc;
+	(void)argv;
+	
+	ft_itob(15);
+	//	ft_itob(5);
+	//	std::cout << "Hello, World!\n";
+	return 0;
+}
