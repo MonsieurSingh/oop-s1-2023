@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95F26CFF2B95359D00E97FC8 /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F26CFE2B95359D00E97FC8 /* transform.cpp */; };
 		95F26D012B953AD300E97FC8 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 95F26D002B953AD300E97FC8 /* Makefile */; };
+		95F26D032B953DAC00E97FC8 /* arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F26D022B953DAC00E97FC8 /* arithmetic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		953836A22B8BFF5C003B1001 /* oop-s1-2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oop-s1-2023"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F26CFE2B95359D00E97FC8 /* transform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = transform.cpp; sourceTree = "<group>"; };
 		95F26D002B953AD300E97FC8 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		95F26D022B953DAC00E97FC8 /* arithmetic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arithmetic.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 			children = (
 				95F26D002B953AD300E97FC8 /* Makefile */,
 				95F26CFE2B95359D00E97FC8 /* transform.cpp */,
+				95F26D022B953DAC00E97FC8 /* arithmetic.cpp */,
 				953836A32B8BFF5C003B1001 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,7 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F26D012B953AD300E97FC8 /* Makefile in Sources */,
-				95F26CFF2B95359D00E97FC8 /* transform.cpp in Sources */,
+				95F26D032B953DAC00E97FC8 /* arithmetic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
