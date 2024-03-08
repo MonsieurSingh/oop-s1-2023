@@ -53,35 +53,15 @@ int	char_index(const std::string& base, char c)
 }
 
 int ft_atoi_base(int binary_digits[], int number_of_digits, const std::string& base) {
-	int index;
-	int is_pos;
-	int nb;
-	int base_len;
-	
-	char str[30] = {0};
-	index = 0;
-	while (number_of_digits--)
-		str[number_of_digits] = binary_digits[number_of_digits] + '0';
-	index = 0;
-	is_pos = check_sign(str);
-	nb = 0;
-	base_len = (int)base.length();
-	if (base_len < 2)
-		return 0;
-	while (str[index] != '\0') {
-		if (str[index] != ' ' && str[index] != '+' && str[index] != '-'
-			&& char_index(base, str[index]) != -1)
-		{
-			if (str[index - 1] == ' ')
-				return 0;
-			else
-				nb = (nb * base_len) + char_index(base, str[index]);
-		}
-		index++;
+	int nb = 0;
+	int base_len = (int)base.length();
+	(void)base_len;
+	for (int i = 0; i < number_of_digits; ++i) {
+		nb = nb * 2 + binary_digits[i];
 	}
-	return (is_pos * nb);
+	
+	return nb;
 }
-
 
 void	ft_putnbr_base(long nbr, const std::string& base)
 {
