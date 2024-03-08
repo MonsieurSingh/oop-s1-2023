@@ -20,9 +20,9 @@ int is_identity(int array[10][10])
 		j = 0;
 		while (j < edge_size)
 		{
-			if (i == j && i != 1)
+			if (i == j && array[i][j] != 1)
 				return (0);
-			if (i != j && i != 0)
+			if (i != j && array[i][j] != 0)
 				return (0);
 			j++;
 		}
