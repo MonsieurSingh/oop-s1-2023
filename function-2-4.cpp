@@ -51,7 +51,7 @@ int	sum_min_max(int integers[], int length)
 {
 	int	sum;
 	
-	sum = min_element(integers, length) + max_element(integers, length);
+	sum = array_min(integers, length) + array_max(integers, length);
 	if (sum != -2)
 		return (sum);
 	else
