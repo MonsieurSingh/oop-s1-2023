@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		953836A62B8BFF5C003B1001 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953836A52B8BFF5C003B1001 /* main.cpp */; };
+		9513BCB92B9ACDAB000FFEC9 /* function-1-5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9513BCB82B9ACDAB000FFEC9 /* function-1-5.cpp */; };
+		9513BCBB2B9ACE36000FFEC9 /* main-1-5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9513BCBA2B9ACE36000FFEC9 /* main-1-5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9513BCA32B9A1E5E000FFEC9 /* function-1-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-1-1.cpp"; sourceTree = "<group>"; };
+		9513BCA52B9ABFBE000FFEC9 /* function-1-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-1-2.cpp"; sourceTree = "<group>"; };
+		9513BCA72B9AC060000FFEC9 /* main-1-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-1-1.cpp"; sourceTree = "<group>"; };
+		9513BCA92B9AC124000FFEC9 /* main-1-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-1-2.cpp"; sourceTree = "<group>"; };
+		9513BCAE2B9AC647000FFEC9 /* function-1-3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-1-3.cpp"; sourceTree = "<group>"; };
+		9513BCB02B9ACB06000FFEC9 /* main-1-3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-1-3.cpp"; sourceTree = "<group>"; };
+		9513BCB42B9ACBED000FFEC9 /* function-1-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-1-4.cpp"; sourceTree = "<group>"; };
+		9513BCB62B9ACC8C000FFEC9 /* main-1-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-1-4.cpp"; sourceTree = "<group>"; };
+		9513BCB82B9ACDAB000FFEC9 /* function-1-5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-1-5.cpp"; sourceTree = "<group>"; };
+		9513BCBA2B9ACE36000FFEC9 /* main-1-5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-1-5.cpp"; sourceTree = "<group>"; };
 		953836A22B8BFF5C003B1001 /* oop-s1-2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oop-s1-2023"; sourceTree = BUILT_PRODUCTS_DIR; };
-		953836A52B8BFF5C003B1001 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +51,16 @@
 		953836992B8BFF5C003B1001 = {
 			isa = PBXGroup;
 			children = (
-				953836A42B8BFF5C003B1001 /* oop-s1-2023 */,
+				9513BCA32B9A1E5E000FFEC9 /* function-1-1.cpp */,
+				9513BCA52B9ABFBE000FFEC9 /* function-1-2.cpp */,
+				9513BCAE2B9AC647000FFEC9 /* function-1-3.cpp */,
+				9513BCB42B9ACBED000FFEC9 /* function-1-4.cpp */,
+				9513BCB82B9ACDAB000FFEC9 /* function-1-5.cpp */,
+				9513BCA72B9AC060000FFEC9 /* main-1-1.cpp */,
+				9513BCA92B9AC124000FFEC9 /* main-1-2.cpp */,
+				9513BCB02B9ACB06000FFEC9 /* main-1-3.cpp */,
+				9513BCB62B9ACC8C000FFEC9 /* main-1-4.cpp */,
+				9513BCBA2B9ACE36000FFEC9 /* main-1-5.cpp */,
 				953836A32B8BFF5C003B1001 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +71,6 @@
 				953836A22B8BFF5C003B1001 /* oop-s1-2023 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		953836A42B8BFF5C003B1001 /* oop-s1-2023 */ = {
-			isa = PBXGroup;
-			children = (
-				953836A52B8BFF5C003B1001 /* main.cpp */,
-			);
-			path = "oop-s1-2023";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				953836A62B8BFF5C003B1001 /* main.cpp in Sources */,
+				9513BCBB2B9ACE36000FFEC9 /* main-1-5.cpp in Sources */,
+				9513BCB92B9ACDAB000FFEC9 /* function-1-5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +259,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPP8BNC6VR;
 				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_CPLUSPLUSFLAGS = "\"-Wall -Wextra -Werror\"";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -257,6 +275,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPP8BNC6VR;
 				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_CPLUSPLUSFLAGS = "\"-Wall -Wextra -Werror\"";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
