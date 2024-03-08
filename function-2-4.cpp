@@ -6,3 +6,54 @@
 //
 
 #include <stdio.h>
+
+int min_element(int integers[], int length)
+{
+	int	i;
+	int	min;
+	
+	i = 0;
+	if (length < 1)
+		return (-1);
+	min = integers[i];
+	while(i < length)
+	{
+		if (integers[i] < min)
+		{
+			min = integers[i];
+		}
+		i++;
+	}
+	return (min);
+}
+
+int max_element(int integers[], int length)
+{
+	int	i;
+	int	max;
+	
+	i = 0;
+	if (length < 1)
+		return (-1);
+	max = integers[i];
+	while(i < length)
+	{
+		if (integers[i] > max)
+		{
+			max = integers[i];
+		}
+		i++;
+	}
+	return (max);
+}
+
+int	sum_min_max(int integers[], int length)
+{
+	int	sum;
+	
+	sum = min_element(integers, length) + max_element(integers, length);
+	if (sum != -2)
+		return (sum);
+	else
+		return (-1);
+}
