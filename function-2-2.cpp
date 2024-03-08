@@ -59,7 +59,6 @@ int ft_atoi_base(int binary_digits[], int number_of_digits, const std::string& b
 	for (int i = 0; i < number_of_digits; ++i) {
 		nb = nb * 2 + binary_digits[i];
 	}
-	
 	return nb;
 }
 
@@ -95,8 +94,5 @@ void	ft_putnbr_base(long nbr, const std::string& base)
 int	binary_to_int(int binary_digits[], int number_of_digits)
 {
 	int	i = ft_atoi_base(binary_digits, number_of_digits, "01");
-	//	std::cout << i;
-	ft_putnbr_base(i, "01");
-	std::cout << std::endl;
 	return (i);
 }
