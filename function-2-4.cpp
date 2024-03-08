@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int min_element(int integers[], int length)
+int array_min(int integers[], int length)
 {
 	int	i;
 	int	min;
@@ -27,7 +27,7 @@ int min_element(int integers[], int length)
 	return (min);
 }
 
-int max_element(int integers[], int length)
+int array_max(int integers[], int length)
 {
 	int	i;
 	int	max;

@@ -7,8 +7,8 @@
 
 #include <iostream>
 
-extern	int min_element(int integers[], int length);
-extern	int max_element(int integers[], int length);
+extern	int array_min(int integers[], int length);
+extern	int array_max(int integers[], int length);
 extern	int sum_min_max(int integers[], int length);
 
 int main(void) {
@@ -21,8 +21,8 @@ int main(void) {
 		std::cout << arr1[i] << " ";
 	}
 	std::cout << std::endl;
-	std::cout << "Min element: " << min_element(arr1, length1) << std::endl;
-	std::cout << "Max element: " << max_element(arr1, length1) << std::endl;
+	std::cout << "Min element: " << array_min(arr1, length1) << std::endl;
+	std::cout << "Max element: " << array_max(arr1, length1) << std::endl;
 	std::cout << "Sum of min and max: " << sum_min_max(arr1, length1) << std::endl;
 	
 	// Test case 2: Empty array
@@ -30,8 +30,8 @@ int main(void) {
 	int length2 = 0;
 	std::cout << "\nTest case 2:\n";
 	std::cout << "Array: <empty>" << std::endl;
-	std::cout << "Min element: " << min_element(arr2, length2) << std::endl;
-	std::cout << "Max element: " << max_element(arr2, length2) << std::endl;
+	std::cout << "Min element: " << array_min(arr2, length2) << std::endl;
+	std::cout << "Max element: " << array_max(arr2, length2) << std::endl;
 	std::cout << "Sum of min and max: " << sum_min_max(arr2, length2) << std::endl;
 	
 	// Test case 3: Single element array
@@ -39,8 +39,8 @@ int main(void) {
 	int length3 = 1;
 	std::cout << "\nTest case 3:\n";
 	std::cout << "Array: " << arr3[0] << std::endl;
-	std::cout << "Min element: " << min_element(arr3, length3) << std::endl;
-	std::cout << "Max element: " << max_element(arr3, length3) << std::endl;
+	std::cout << "Min element: " << array_min(arr3, length3) << std::endl;
+	std::cout << "Max element: " << array_max(arr3, length3) << std::endl;
 	std::cout << "Sum of min and max: " << sum_min_max(arr3, length3) << std::endl;
 	
 	// Test case 4: Negative length
@@ -52,8 +52,8 @@ int main(void) {
 		std::cout << arr4[i] << " ";
 	}
 	std::cout << std::endl;
-	std::cout << "Min element: " << min_element(arr4, length4) << std::endl;
-	std::cout << "Max element: " << max_element(arr4, length4) << std::endl;
+	std::cout << "Min element: " << array_min(arr4, length4) << std::endl;
+	std::cout << "Max element: " << array_max(arr4, length4) << std::endl;
 	std::cout << "Sum of min and max: " << sum_min_max(arr4, length4) << std::endl;
 	
 	return (0);
