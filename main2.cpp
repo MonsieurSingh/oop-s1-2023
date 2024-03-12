@@ -15,7 +15,7 @@ void	pointer_fun(double	*debe, char	*str, double db, char c)
 	std::cout << *debe << std::endl << *str << std::endl;
 }
 
-int main(int argc, const char * argv[])
+int main2(int argc, const char * argv[])
 {
 	double *debe = NULL;
 	char *str = NULL;

@@ -11,8 +11,8 @@
 #include <stdio.h>
 
 void	changeValue(double *debe);
-void	printArray(double*, int);
+void	printArray(double *db_arr, int n);
 double	arrayMax(double *db_arr, int n);
-double	*dynamicArray(int, double);
+double	*dynamicArray(int n, double M);
 
 #endif

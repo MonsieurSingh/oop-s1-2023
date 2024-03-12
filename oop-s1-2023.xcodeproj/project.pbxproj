@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95E99BCA2BA0C45A0074F86E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E99BC82BA0C45A0074F86E /* main.cpp */; };
+		95E99BCA2BA0C45A0074F86E /* main2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E99BC82BA0C45A0074F86E /* main2.cpp */; };
 		95E99BCC2BA0C4C60074F86E /* changeValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E99BCB2BA0C4C60074F86E /* changeValue.cpp */; };
 		95E99BCE2BA0CB170074F86E /* printArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E99BCD2BA0CB170074F86E /* printArray.cpp */; };
 		95E99BD02BA0CC3F0074F86E /* arrayMax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E99BCF2BA0CC3F0074F86E /* arrayMax.cpp */; };
@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		953836A22B8BFF5C003B1001 /* oop-s1-2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oop-s1-2023"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E99BC82BA0C45A0074F86E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95E99BC82BA0C45A0074F86E /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
 		95E99BC92BA0C45A0074F86E /* workshop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = workshop.h; sourceTree = "<group>"; };
 		95E99BCB2BA0C4C60074F86E /* changeValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = changeValue.cpp; sourceTree = "<group>"; };
 		95E99BCD2BA0CB170074F86E /* printArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printArray.cpp; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		953836992B8BFF5C003B1001 = {
 			isa = PBXGroup;
 			children = (
-				95E99BC82BA0C45A0074F86E /* main.cpp */,
+				95E99BC82BA0C45A0074F86E /* main2.cpp */,
 				95E99BCB2BA0C4C60074F86E /* changeValue.cpp */,
 				95E99BC92BA0C45A0074F86E /* workshop.h */,
 				95E99BCD2BA0CB170074F86E /* printArray.cpp */,
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E99BCA2BA0C45A0074F86E /* main.cpp in Sources */,
+				95E99BCA2BA0C45A0074F86E /* main2.cpp in Sources */,
 				95E99BD02BA0CC3F0074F86E /* arrayMax.cpp in Sources */,
 				95E99BD22BA0CDC60074F86E /* dynamicArray.cpp in Sources */,
 				95E99BCC2BA0C4C60074F86E /* changeValue.cpp in Sources */,
