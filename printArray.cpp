@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include "workshop.h"
 
 void	printArray(double *db_arr, int n)
 {

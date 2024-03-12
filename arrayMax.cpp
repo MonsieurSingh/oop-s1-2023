@@ -5,7 +5,8 @@
 //  Created by Devjyot Singh on 13/3/2024.
 //
 
-#include <stdio.h>
+#include <iostream>
+#include "workshop.h"
 
 double arrayMax(double *db_arr, int n)
 {
