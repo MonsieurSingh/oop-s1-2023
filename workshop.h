@@ -16,7 +16,7 @@ void	printArray(double *db_arr, int n)
 {
 	while (n--)
 	{
-		std::cout << *db_arr << std::endl;
+		std::cout << *db_arr << " ";
 		db_arr++;
 	}
 }
