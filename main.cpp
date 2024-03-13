@@ -8,10 +8,6 @@
 #include <iostream>
 #include "workshop.h"
 
-extern double	arrayMax(double *db_arr, int n);
-extern double	*dynamicArray(int n, double M);
-extern void		printArray(double *db_arr, int n);
-extern void		changeValue(double *db);
 void			pointer_fun(double	*debe, char	*str, double db, char c)
 {
 	debe = &db;
