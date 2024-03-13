@@ -19,6 +19,7 @@ void	printArray(double *db_arr, int n)
 		std::cout << *db_arr << " ";
 		db_arr++;
 	}
+	std::cout << std::endl;
 }
 
 double arrayMax(double *db_arr, int n)
