@@ -45,6 +45,5 @@ void	hexDigits(int *numbers, int length)
 			<< std::endl;
 		i++;
 	}
-	delete [] numbers;
 	return ;
 }

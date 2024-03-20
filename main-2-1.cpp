@@ -15,5 +15,6 @@ int main(int argc, const char * argv[]) {
 	
 	numbers = readNumbers();
 	hexDigits(numbers, 10);
+	delete [] numbers;
 	return (0);
 }

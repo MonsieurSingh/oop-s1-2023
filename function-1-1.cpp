@@ -40,6 +40,5 @@ void	printNumbers(int *numbers, int length)
 		std::cout << i << " " << numbers[i] << std::endl;
 		i++;
 	}
-	delete [] numbers;
 	return ;
 }
