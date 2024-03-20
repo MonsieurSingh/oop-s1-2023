@@ -1,5 +1,5 @@
 //
-//  main-4-1.cpp
+//  main-3-2.cpp
 //  oop-s1-2023
 //
 //  Created by Devjyot Singh on 20/3/2024.
@@ -12,19 +12,16 @@ extern int	*readNumbers();
 extern void	printNumbers(int *numbers, int length);
 extern bool	equalsArray(int*, int*, int);
 extern int	*reverseArray(int*, int);
-extern int	secondSmallestSum(int *numbers, int length);
 
 int main(int argc, const char * argv[]) {
 	int *numbers1;
-	int	second_smallest_sum;
+	int	*numbers2;
 	
 	std::cout << "enter array1:" << std::endl;
 	numbers1 = readNumbers();
-	second_smallest_sum = secondSmallestSum(numbers1, 10);
-	std::cout
-		<< "The second smallest sum is: "
-		<< second_smallest_sum
-		<< std::endl;
+	numbers2 = reverseArray(numbers1, 10);
+	std::cout << (equalsArray(numbers1, numbers2, 10) ? "true" : "false") << std::endl;
 	delete [] numbers1;
+	delete [] numbers2;
 	return (0);
 }

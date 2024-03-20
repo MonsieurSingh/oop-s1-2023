@@ -8,10 +8,10 @@ SRCDIR := .
 # Define the executable name
 EXECUTABLE := myprogram
 
-TARGETS := 1 2 3 4
+TARGETS := 1-1 2-1 3-1 4-1
 
-MAIN_SRCS := $(addprefix $(SRCDIR)/main-,$(addsuffix -1.cpp,$(TARGETS)))
-FUNC_SRCS := $(addprefix $(SRCDIR)/function-,$(addsuffix -1.cpp,$(TARGETS)))
+MAIN_SRCS := $(addprefix $(SRCDIR)/main-,$(addsuffix .cpp,$(TARGETS)))
+FUNC_SRCS := $(addprefix $(SRCDIR)/function-,$(addsuffix .cpp,$(TARGETS)))
 
 MAIN_OBJS := $(MAIN_SRCS:.cpp=.o)
 FUNC_OBJS := $(FUNC_SRCS:.cpp=.o)
@@ -19,13 +19,13 @@ FUNC_OBJS := $(FUNC_SRCS:.cpp=.o)
 $(EXECUTABLE): $(MAIN_OBJS) $(FUNC_OBJS)
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
-%: $(SRCDIR)/main-%-1.o $(SRCDIR)/function-%-1.o
+%: $(SRCDIR)/main-%.o $(SRCDIR)/function-%.o
 	$(CXX) $(CXXFLAGS) $^ -o $(EXECUTABLE)
 
-$(SRCDIR)/main-%-1.o: $(SRCDIR)/main-%-1.cpp
+$(SRCDIR)/main-%.o: $(SRCDIR)/main-%.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-$(SRCDIR)/function-%-1.o: $(SRCDIR)/function-%-1.cpp
+$(SRCDIR)/function-%.o: $(SRCDIR)/function-%.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:

@@ -1,15 +1,17 @@
 //
-//  function-3-1.cpp
+//  function-3-2.cpp
 //  oop-s1-2023
 //
-//  Created by Devjyot Singh on 18/3/2024.
+//  Created by Devjyot Singh on 20/3/2024.
 //
 
 #include <iostream>
+#include <stdio.h>
 
 int		*readNumbers();
 void	printNumbers(int*, int);
 bool	equalsArray(int*, int*, int);
+int		*reverseArray(int*, int);
 
 int		*readNumbers()
 {
@@ -57,4 +59,19 @@ bool	equalsArray(int *numbers1, int *numbers2, int length)
 		i++;
 	}
 	return (true);
+}
+
+int	*reverseArray(int *numbers1, int length)
+{
+	int	i;
+	int	*numbers2;
+
+	i = 0;
+	numbers2 = new int[length];
+	while (length--)
+	{
+		numbers2[length] = numbers1[i];
+		i++;
+	}
+	return (numbers2);
 }

@@ -35,8 +35,9 @@ void	printNumbers(int *numbers, int length)
 	i = 0;
 	while (i < length)
 	{
-		std::cout << i << " " << numbers[i] << " " << std::endl;
+		std::cout << i << " " << numbers[i] << std::endl;
 		i++;
 	}
+	delete [] numbers;
 	return ;
 }
