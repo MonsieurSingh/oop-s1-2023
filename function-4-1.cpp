@@ -22,6 +22,8 @@ int		*readNumbers()
 	int	i;
 	
 	d = new int[10];
+	if (!d)
+		exit(EXIT_FAILURE);
 	i = 0;
 	while (i < 10)
 	{
