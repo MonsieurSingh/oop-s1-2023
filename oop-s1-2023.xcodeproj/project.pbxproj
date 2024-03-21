@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		953836A62B8BFF5C003B1001 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953836A52B8BFF5C003B1001 /* main.cpp */; };
+		9566CBC82BABEE00006EC8CA /* function-4-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9566CBC72BABEE00006EC8CA /* function-4-1.cpp */; };
+		9566CBCA2BABEE83006EC8CA /* main-4-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9566CBC92BABEE83006EC8CA /* main-4-1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,15 @@
 
 /* Begin PBXFileReference section */
 		953836A22B8BFF5C003B1001 /* oop-s1-2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oop-s1-2023"; sourceTree = BUILT_PRODUCTS_DIR; };
-		953836A52B8BFF5C003B1001 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		953836A52B8BFF5C003B1001 /* main-1-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-1-1.cpp"; sourceTree = "<group>"; };
+		9566CBBC2BABC5D1006EC8CA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9566CBBD2BABC612006EC8CA /* function-1-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-1-1.cpp"; sourceTree = "<group>"; };
+		9566CBBF2BABE68D006EC8CA /* function-2-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-2-1.cpp"; sourceTree = "<group>"; };
+		9566CBC12BABE8AD006EC8CA /* main-2-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-2-1.cpp"; sourceTree = "<group>"; };
+		9566CBC32BABEBF1006EC8CA /* function-3-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-3-1.cpp"; sourceTree = "<group>"; };
+		9566CBC52BABED1C006EC8CA /* main-3-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-3-1.cpp"; sourceTree = "<group>"; };
+		9566CBC72BABEE00006EC8CA /* function-4-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-4-1.cpp"; sourceTree = "<group>"; };
+		9566CBC92BABEE83006EC8CA /* main-4-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-4-1.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +50,15 @@
 		953836992B8BFF5C003B1001 = {
 			isa = PBXGroup;
 			children = (
-				953836A42B8BFF5C003B1001 /* oop-s1-2023 */,
+				9566CBBC2BABC5D1006EC8CA /* Person.h */,
+				9566CBBD2BABC612006EC8CA /* function-1-1.cpp */,
+				953836A52B8BFF5C003B1001 /* main-1-1.cpp */,
+				9566CBBF2BABE68D006EC8CA /* function-2-1.cpp */,
+				9566CBC12BABE8AD006EC8CA /* main-2-1.cpp */,
+				9566CBC32BABEBF1006EC8CA /* function-3-1.cpp */,
+				9566CBC52BABED1C006EC8CA /* main-3-1.cpp */,
+				9566CBC72BABEE00006EC8CA /* function-4-1.cpp */,
+				9566CBC92BABEE83006EC8CA /* main-4-1.cpp */,
 				953836A32B8BFF5C003B1001 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +69,6 @@
 				953836A22B8BFF5C003B1001 /* oop-s1-2023 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		953836A42B8BFF5C003B1001 /* oop-s1-2023 */ = {
-			isa = PBXGroup;
-			children = (
-				953836A52B8BFF5C003B1001 /* main.cpp */,
-			);
-			path = "oop-s1-2023";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				953836A62B8BFF5C003B1001 /* main.cpp in Sources */,
+				9566CBCA2BABEE83006EC8CA /* main-4-1.cpp in Sources */,
+				9566CBC82BABEE00006EC8CA /* function-4-1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
