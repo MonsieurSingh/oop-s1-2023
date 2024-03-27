@@ -7,13 +7,9 @@
 
 #include "Orchestra.h"
 
-Orchestra::Orchestra() : size(0), members(nullptr) {}
-Orchestra::Orchestra(int size) : size(size)
-{
-	members = new Musician[size];
-}
-Orchestra::~Orchestra()
-{
+Orchestra::Orchestra() : size(0), members(new Musician[MAX_SIZE]) {}
+Orchestra::Orchestra(int size) : size(size), members(new Musician[MAX_SIZE]) {}
+Orchestra::~Orchestra() {
 	delete[] members;
 }
 int Orchestra::get_current_number_of_members() {
