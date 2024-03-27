@@ -7,35 +7,31 @@
 
 #include "Orchestra.h"
 
-Orchestra::Orchestra() : size(0), members(new Musician[MAX_SIZE]) {}
-Orchestra::Orchestra(int size) : size(size), members(new Musician[MAX_SIZE]) {}
+Orchestra::Orchestra() : max_size(0), current_size(0), members(nullptr) {}
+Orchestra::Orchestra(int size) : max_size(size), current_size(0) {
+	members = new Musician[max_size];
+}
 Orchestra::~Orchestra() {
 	delete[] members;
 }
 int Orchestra::get_current_number_of_members() {
-	return size;
+	return current_size;
 }
-bool Orchestra::has_instrument(std::string instrument)
-{
-	for (int i = 0; i < size; ++i)
-	{
-		if (members[i].get_instrument() == instrument)
-		{
+bool Orchestra::has_instrument(std::string instrument) {
+	for (int i = 0; i < current_size; ++i) {
+		if (members[i].get_instrument() == instrument) {
 			return true;
 		}
 	}
 	return false;
 }
-Musician* Orchestra::get_members()
-{
+Musician *Orchestra::get_members() {
 	return members;
 }
-bool Orchestra::add_musician(Musician new_musician)
-{
-	if (size >= MAX_SIZE) {
-		std::cout << "Cannot add more musicians. Orchestra is full." << std::endl;
+bool Orchestra::add_musician(Musician new_musician) {
+	if (current_size >= max_size) {
 		return false;
 	}
-	members[size++] = new_musician;
+	members[current_size++] = new_musician;
 	return true;
 }

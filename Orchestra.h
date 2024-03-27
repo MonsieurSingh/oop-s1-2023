@@ -15,8 +15,8 @@
 class Orchestra
 {
 private:
-	static constexpr int MAX_SIZE = 100;
-	int	size;
+	int max_size;
+	int current_size;
 	Musician *members;
 public:
 	Orchestra();
